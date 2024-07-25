@@ -57,29 +57,43 @@
         <p></p>
       </div>
       <ul class="reply">
-        <li>what have you been working on lately?</li>
+        <li class="animate">what have you been working on lately?</li>
       </ul>
       <ul class="message">
-        <li><a href="https://focus.samalam.co">focus.samalam.co</a></li>
-        <li>a minimal text editor 📝</li>
-        <img src="assets/focus.png" alt="" />
+        <li class="animate">
+          <a href="https://focus.samalam.co">focus.samalam.co</a>
+        </li>
+        <li class="animate">a minimal text editor 📝</li>
+        <img src="assets/focus.png" alt="" class="animate expandable" />
       </ul>
       <ul class="reply">
-        <li>what else have you been working on?</li>
+        <li class="animate">what else have you been working on?</li>
       </ul>
       <ul class="message">
-        <li><a href="https://card.samalam.co">card.samalam.co</a></li>
-        <li>displays spotify album as a card 🎵</li>
-        <img src="assets/card.png" alt="" />
+        <li class="animate">
+          <a href="https://card.samalam.co">card.samalam.co</a>
+        </li>
+        <li class="animate">displays spotify album as a card 🎵</li>
+        <img src="assets/card.png" alt="" class="animate expandable" />
       </ul>
       <ul class="reply">
-        <li>is that all?</li>
+        <li class="animate">is that all?</li>
       </ul>
       <ul class="message">
-        <li>yup that's all for now. check back soon! 😝</li>
+        <li class="animate">yup that's all for now. check back soon! 😝</li>
       </ul>
+
+      <!-- Modal Structure -->
+      <div id="imageModal" class="modal">
+        <span class="close"></span>
+        <img class="modal-content" id="modalImage" />
+        <div id="caption"></div>
+      </div>
       <footer>designed and developed by sam alam ⭐</footer>
     </div>
+
     <script src="js/date.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/modal.js"></script>
   </body>
 </html>
