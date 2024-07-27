@@ -8,6 +8,17 @@
     --col-bg: #000;
 }
 
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    overflow: auto;
+}
+
+
 body {
     font-family: var(--ff);
     font-weight: 300;
@@ -299,3 +310,31 @@ footer {
     text-decoration: none;
     cursor: pointer;
 }
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #fff;
+    }
+
+    .message {
+        color: #000;
+    }
+
+    .message li {
+        background-color: #E9E9EB;
+    }
+
+    .message li:hover {
+        background-color: #e0dfdf;
+    }
+
+    .reply li:hover {
+        background-color: #257cef;
+    }
+
+    header {
+        background-color: #F5F5F5;
+        color: #313131;
+        border-bottom: 1px solid #E3E3E3;
+    }
+  }
