@@ -8,16 +8,9 @@
     --col-bg: #000;
 }
 
-html {
-    overflow: hidden;
-    height: 100%;
+html, body {
+    overscroll-behavior: none;
 }
-
-body {
-    height: 100%;
-    overflow: auto;
-}
-
 
 body {
     font-family: var(--ff);
